@@ -1,4 +1,5 @@
-bbody, html {
+
+body, html {
   margin: 0;
   overflow: hidden;
   -webkit-transition: opacity 400ms;

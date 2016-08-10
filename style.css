@@ -13,11 +13,13 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
 html {
     font-size: 16px;
+    margin: 0;
 }
 
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
+    display: block;
 }
 
 .wrapper {
@@ -26,10 +28,7 @@ body {
 }
 
 
-section {
-  position: relative;
-  overflow: hidden;
-}
+
 
 h1, h2, h3, h4, h5, p {
   color: #F5F1DF;
@@ -40,7 +39,12 @@ h1, h2, h3, h4, h5, p {
 /*------------------------------------------ 
     SECTION COLOURS
 --------------------------------------------*/
-
+section {
+  position: relative;
+  overflow: hidden;
+  width: 100%; 
+  height: 100%;
+}
 
 section:nth-child(n+1) {
   background: #38589A ;
@@ -67,6 +71,17 @@ section:first-child {
 /*------------------------------------------ 
     FONTS
 --------------------------------------------*/
+.left_text {
+  top: 30%;
+  left: 20%;
+
+}
+
+.right-text {
+  bottom: 50%;
+  right: 20%;
+
+}
 
 
 
