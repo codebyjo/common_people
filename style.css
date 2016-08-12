@@ -2,7 +2,6 @@
 /*  blue = 38589A */
 /* red = 670E1E */
 
-@import url(https://fonts.googleapis.com/css?family=Roboto);
 @font-face {
     font-family: 'Chivo';
     src: url('chivo/Chivo-Regular.ttf') format('truetype');
@@ -23,6 +22,7 @@ html {
 
 body {
     font-family: 'Chivo', sans-serif;
+    font-style: bold;
     font-size: 1rem;
     display: block;
 }
@@ -36,9 +36,27 @@ body {
 
 
 h1, h2, h3, h4, h5, p {
-  color: #F5F1DF;
-  letter-spacing: 0.5px;
+  color: white;
 }
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.box {
+    margin: 40px auto;
+     width: 75%;
+}
+
+.box-left {
+  float: left;
+}
+
+.box-right{
+  float: right;
+}
+
 
 /*------------------------------------------ 
     SECTION COLOURS
@@ -87,6 +105,11 @@ section:first-child {
   bottom: 50%;
   right: 20%;
 
+}
+
+.chorus {
+  text-align: center;
+  margin: auto auto;
 }
 
 

@@ -65,7 +65,7 @@ body, .onepage-wrapper, html {
   width: 10px;
   height: 10px;
   background: none;
-  border: 1px solid black;
+  border: 1px solid white;
   margin-top: -4px;
   left: 8px;
 }
@@ -74,7 +74,8 @@ body, .onepage-wrapper, html {
   overflow: auto;
 }
 
-.disabled-onepage-scroll .onepage-wrapper .ops-section {
+.disabled-onepage-scroll .one
+page-wrapper .ops-section {
   position: relative !important;
   top: auto !important;
 }
