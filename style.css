@@ -57,6 +57,12 @@ h1 {
   float: right;
 }
 
+.chorus {
+text-align: center;
+vertical-align: middle;
+line-height: 90px;       /* the same as your div height */
+}
+
 
 /*------------------------------------------ 
     SECTION COLOURS
@@ -108,8 +114,7 @@ section:first-child {
 }
 
 .chorus {
-  text-align: center;
-  margin: auto auto;
+
 }
 
 
