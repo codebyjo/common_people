@@ -5,6 +5,7 @@
 @font-face {
     font-family: 'Chivo';
     src: url('chivo/Chivo-Regular.ttf') format('truetype');
+    src: url('chivo/Chivo-Bold.otf') format('otf');
 }
 
 
@@ -44,6 +45,7 @@ h1 {
   text-align: center;
 }
 
+
 .box {
     margin: 40px auto;
      width: 75%;
@@ -60,7 +62,7 @@ h1 {
 .chorus {
 text-align: center;
 vertical-align: middle;
-line-height: 90px;       /* the same as your div height */
+line-height: 60px;       /* the same as your div height */
 }
 
 
